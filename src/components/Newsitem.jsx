@@ -1,8 +1,13 @@
 import React, { Component } from "react";
 
 export default class Newsitem extends Component {
+
+
   render() {
-    let { title, imageUrl, description, newsUrl, author, date, source } = this.props;
+
+
+
+    let { title, imageUrl, description, newsUrl, author, date, source,} = this.props;
     return (
       <div className="my-3 container">
         <div className="card">
